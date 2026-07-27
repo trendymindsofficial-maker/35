@@ -1,5 +1,6 @@
-'use client';
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  images: { unoptimized: true },
+};
 
-import React from 'react';
-
-export default function Page() { return <div>SPC Pass Active</div>; }
+module.exports = nextConfig;
